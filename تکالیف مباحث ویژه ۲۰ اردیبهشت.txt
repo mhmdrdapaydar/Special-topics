@@ -1,1 +1,39 @@
+سوال ها:
+بخش 1: Machine Learning  20/12/1403
+Supervised Learning  و Unsupervised Learning چه تفاوتی دارند؟ 
+چرا Feature Scaling در الگوریتم‌های Machine Learning ضروری است؟ 
+Standardization و Normalization چه تفاوتی دارند؟ 
+چرا Min-Max Normalization برای مقیاس‌بندی داده‌ها استفاده می‌شود؟ 
+Z-Score Normalization چیست و چرا کاربرد دارد؟ 
+Regularization در الگوریتم‌های Machine Learning چیست؟ 
+Overfitting و Underfitting چه مشکلاتی را در Model-building به وجود می‌آورند؟ 
+Cross-Validation چرا در Train/Test Split کاربرد دارد؟ 
+Gradient Descent چگونه کار می‌کند؟ 
+چرا Deep Learning برای پیچیده‌ترین مسائل استفاده می‌شود؟
 
+جواب های بخش ۱ هست استاد
+
+1. تفاوت Supervised و Unsupervised Learning
+در Supervised Learning داده‌های آموزشی دارای برچسب (label) هستند و مدل یاد می‌گیرد که از ورودی به خروجی برسد.
+
+در Unsupervised Learning داده‌ها بدون برچسب‌اند و مدل سعی می‌کند الگوها و خوشه‌بندی‌ها را پیدا کند.
+
+2. ضرورت Feature Scaling در Machine Learning باعث می‌شود ویژگی‌های با مقیاس‌های مختلف بر الگوریتم تأثیر نابرابر نگذارند و به بهبود دقت و سرعت مدل کمک می‌کند.
+
+3. تفاوت Standardization و Normalization
+Standardization داده‌ها را به میانگین صفر و انحراف معیار یک تبدیل می‌کند.
+Normalization داده‌ها را در بازه‌ای مشخص (معمولاً ۰ تا ۱) مقیاس‌بندی می‌کند.
+
+4. کاربرد Min-Max Normalization مقدار ویژگی‌ها را بین ۰ و ۱ تنظیم می‌کند تا تأثیر داده‌های پرت کاهش پیدا کنه و عملکرد مدل بهبود پیدا کنع.
+
+5. Z-Score Normalization و کاربرد آن مقدار هر داده را با میانگین کم کرده و بر انحراف معیار تقسیم می‌کند. برای داده‌هایی که توزیع نرمال دارند مفید است.
+
+6. Regularization در Machine Learning تکنیکی برای کاهش Overfitting با اضافه کردن جریمه به وزن‌های مدل (مثلاً L1 و L2) تا مدل پیچیدگی غیرضروری نداشته باشد.
+
+7. مشکلات Overfitting و Underfitting Overfitting مدل بیش از حد روی داده‌های آموزش تنظیم می‌شود و در داده‌های جدید عملکرد ضعیفی دارد. Underfitting مدل الگوی داده‌ها را خوب یاد نمی‌گیرد و دقت پایینی دارد.
+
+8. اهمیت Cross-Validation در Train/Test Split از چندین بخش از داده برای آموزش و ارزیابی استفاده می‌کند تا مدل پایدارتر و عمومی‌تر شود.
+
+9. نحوه کار Gradient Descent مقدار ضرر (Loss) را با محاسبه شیب تغییر می‌دهد و قدم‌به‌قدم ضرر را کم می‌کند تا مدل به بهترین مقدار داده ها برسع.
+
+10. شبکه‌های عصبی عمیق می‌توانند الگوهای پیچیده و داده‌های حجیم را یاد بگیرند، به‌ویژه در تصاویر، صدا و متن.
